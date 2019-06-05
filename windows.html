@@ -16,8 +16,12 @@
             <li>
               <a href="./index.html">首页</a>
             </li>
-            <li class="active">
-              <a href="./windows.html">Windows</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Windows <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./windows.html">ShadowsocksR</a></li>
+                <li><a href="./clash.html">Clash for Windows</a></li>
+              </ul>
             </li>
             <li>
               <a href="./android.html">Android</a>
@@ -25,8 +29,12 @@
             <li>
               <a href="./ios.html">iOS</a>
             </li>
-            <li>
-              <a href="./mac.html">Mac</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mac <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./mac.html">ShadowsocksX</a></li>
+                <li><a href="./clashx.html">ClashX</a></li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -52,6 +60,11 @@
           <p>11.设置完毕。请注意浏览器的代理设置是否已经设置为「使用系统代理」，否则可能无法正常使用。</p>
           <blockquote>
             <p>如果需要使用代理访问一些限制IP的网站，请将「代理规则」设置为「全局」即可。</p>
+          </blockquote>
+          <blockquote>
+            <p>如果更新订阅失败，尝试进行以下操作：<br>
+              先将系统代理模式修改为「直连模式」，再将代理规则设置为「绕过局域网和非大陆」，再点击「服务器订阅」中的「更新服务器订阅（不通过代理）」，更新成功后再改回原设置。
+            </p>
           </blockquote>
         </div>
       </div>
